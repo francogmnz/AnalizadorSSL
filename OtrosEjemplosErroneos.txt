@@ -1,0 +1,4 @@
+yield(return,const)
+return()
+return(const
+yield(const)

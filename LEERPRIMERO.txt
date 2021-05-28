@@ -1,0 +1,6 @@
+Instrucciones para ejecutar el analizador.exe
+1) Abrir el Analizador.exe e ir cargando a mano los ejemplos (ejemplosok y ejemploserror)
+2) Si son correctos se va a mostrar la tabla de lexemas y/o el arbol de derivacion.
+3) Ejecutar el Analizador.exe desde el cmd y cargar manualmente los ejemplos que se quieran analizar
+4)Ejecutar desde el cmd Analizador.exe seguido de "ejemploX.txt"
+ 

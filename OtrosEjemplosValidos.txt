@@ -1,0 +1,5 @@
+return
+yield
+return(return,yield)
+return(return)
+returnyield

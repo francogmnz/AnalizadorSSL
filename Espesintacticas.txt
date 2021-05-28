@@ -1,0 +1,25 @@
+CONST_NAME ::= return ['('[CALL_ARGS] ')'] | yield ['('[CALL_ARGS] ')']
+CALL_ARGS ::= ARGS | ARGS [',' ASSOCS] [',' '*' CONST_NAME] [',''.AND.' CONST_NAME]
+ARGS ::= CONST_NAME LOOP*
+LOOP ::= (',' CONST_NAME) | "" 
+
+
+no terminales
+CALL_ARGS
+ARGS
+ASSOCS ::= asscs               		
+CONST_NAME::= const 	        
+
+terminales
+return
+yield
+(
+)
+,
+*
+.AND.  
+
+Ejemplos:
+return(const)
+returnyield(const)
+returnyield
